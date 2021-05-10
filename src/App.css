@@ -1,10 +1,15 @@
 /* 변수선언 */
 :root {
-  --bg-color: black;
-  --font-color: white;
+  --font-color: black;
 }
 
 .app {
-  background: var(--bg-color);
   color: var(--font-color);
+}
+
+button {
+  display: inline-block;
+  border: 0 none;
+  background: 0 none;
+  cursor: pointer;
 }
